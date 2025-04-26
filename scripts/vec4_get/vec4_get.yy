@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "vec4_get",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Common",
-    "path": "folders/Scripts/Libs/GMMath/Vector/Vec4/Common.yy",
+  "$GMScript":"v1",
+  "%Name":"vec4_get",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"vec4_get",
+  "parent":{
+    "name":"Common",
+    "path":"folders/Scripts/Libs/GMMath/Vector/Vec4/Common.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "vec4_cross",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Geometric",
-    "path": "folders/Scripts/Libs/GMMath/Vector/Vec4/Geometric.yy",
+  "$GMScript":"v1",
+  "%Name":"vec4_cross",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"vec4_cross",
+  "parent":{
+    "name":"Geometric",
+    "path":"folders/Scripts/Libs/GMMath/Vector/Vec4/Geometric.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

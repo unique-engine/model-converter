@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "scrGetPrettyNumber",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Utils",
-    "path": "folders/Scripts/Utils.yy",
+  "$GMScript":"v1",
+  "%Name":"scrGetPrettyNumber",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scrGetPrettyNumber",
+  "parent":{
+    "name":"Utils",
+    "path":"folders/Scripts/Utils.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

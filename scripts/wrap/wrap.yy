@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "wrap",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Generic",
-    "path": "folders/Scripts/Libs/GMMath/Generic.yy",
+  "$GMScript":"v1",
+  "%Name":"wrap",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"wrap",
+  "parent":{
+    "name":"Generic",
+    "path":"folders/Scripts/Libs/GMMath/Generic.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

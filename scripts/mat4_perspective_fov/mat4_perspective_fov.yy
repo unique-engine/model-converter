@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "mat4_perspective_fov",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Projection",
-    "path": "folders/Scripts/Libs/GMMath/Matrix/Mat4/Projection.yy",
+  "$GMScript":"v1",
+  "%Name":"mat4_perspective_fov",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"mat4_perspective_fov",
+  "parent":{
+    "name":"Projection",
+    "path":"folders/Scripts/Libs/GMMath/Matrix/Mat4/Projection.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

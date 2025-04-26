@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "plane_set",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Plane",
-    "path": "folders/Scripts/Libs/GMMath/Plane.yy",
+  "$GMScript":"v1",
+  "%Name":"plane_set",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"plane_set",
+  "parent":{
+    "name":"Plane",
+    "path":"folders/Scripts/Libs/GMMath/Plane.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

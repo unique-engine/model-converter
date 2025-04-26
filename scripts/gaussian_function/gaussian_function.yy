@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "gaussian_function",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Statistics",
-    "path": "folders/Scripts/Libs/GMMath/Statistics.yy",
+  "$GMScript":"v1",
+  "%Name":"gaussian_function",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"gaussian_function",
+  "parent":{
+    "name":"Statistics",
+    "path":"folders/Scripts/Libs/GMMath/Statistics.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

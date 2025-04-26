@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "pid_create",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "PID",
-    "path": "folders/Scripts/Libs/GMMath/PID.yy",
+  "$GMScript":"v1",
+  "%Name":"pid_create",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"pid_create",
+  "parent":{
+    "name":"PID",
+    "path":"folders/Scripts/Libs/GMMath/PID.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

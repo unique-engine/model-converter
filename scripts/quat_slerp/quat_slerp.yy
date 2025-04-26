@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "quat_slerp",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Geometric",
-    "path": "folders/Scripts/Libs/GMMath/Quaternion/Geometric.yy",
+  "$GMScript":"v1",
+  "%Name":"quat_slerp",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"quat_slerp",
+  "parent":{
+    "name":"Geometric",
+    "path":"folders/Scripts/Libs/GMMath/Quaternion/Geometric.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

@@ -1,9 +1,11 @@
 {
-  "resourceType": "GMNotes",
-  "resourceVersion": "1.1",
-  "name": "GMMath_LICENSE",
-  "parent": {
-    "name": "GMMath",
-    "path": "folders/Scripts/Libs/GMMath.yy",
+  "$GMNotes":"",
+  "%Name":"GMMath_LICENSE",
+  "name":"GMMath_LICENSE",
+  "parent":{
+    "name":"GMMath",
+    "path":"folders/Scripts/Libs/GMMath.yy",
   },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
 }

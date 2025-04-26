@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "scrDraw3DLineDebug",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Utils",
-    "path": "folders/Scripts/Utils.yy",
+  "$GMScript":"v1",
+  "%Name":"scrDraw3DLineDebug",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scrDraw3DLineDebug",
+  "parent":{
+    "name":"Base Models",
+    "path":"folders/Scripts/Utils/Base Models.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

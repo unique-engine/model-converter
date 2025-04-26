@@ -7,7 +7,7 @@ function scrUiCreateExportModel() {
 		text = "Export model";
 		
 		on_click = function() {
-			var fname = get_save_filename("Unique Model (.unique)|*.unique", filename_change_ext(oCtrl.modelName, "") + ".unique");
+			var fname = get_save_filename("Unique Model (.unique)|*.ue", filename_change_ext(oCtrl.modelName, "") + ".ue");
 			if (fname == "") return;
 			oCtrl.modelUnfrozen.save(fname);
 			

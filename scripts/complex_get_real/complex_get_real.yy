@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "complex_get_real",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Complex",
-    "path": "folders/Scripts/Libs/GMMath/Complex.yy",
+  "$GMScript":"v1",
+  "%Name":"complex_get_real",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"complex_get_real",
+  "parent":{
+    "name":"Complex",
+    "path":"folders/Scripts/Libs/GMMath/Complex.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

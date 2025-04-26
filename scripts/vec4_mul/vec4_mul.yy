@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "vec4_mul",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Arithmetic",
-    "path": "folders/Scripts/Libs/GMMath/Vector/Vec4/Arithmetic.yy",
+  "$GMScript":"v1",
+  "%Name":"vec4_mul",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"vec4_mul",
+  "parent":{
+    "name":"Arithmetic",
+    "path":"folders/Scripts/Libs/GMMath/Vector/Vec4/Arithmetic.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

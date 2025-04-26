@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "ease_expo",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Easing",
-    "path": "folders/Scripts/Libs/GMMath/Easing.yy",
+  "$GMScript":"v1",
+  "%Name":"ease_expo",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ease_expo",
+  "parent":{
+    "name":"Easing",
+    "path":"folders/Scripts/Libs/GMMath/Easing.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

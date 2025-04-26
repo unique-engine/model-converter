@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "vec2_set",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Common",
-    "path": "folders/Scripts/Libs/GMMath/Vector/Vec2/Common.yy",
+  "$GMScript":"v1",
+  "%Name":"vec2_set",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"vec2_set",
+  "parent":{
+    "name":"Common",
+    "path":"folders/Scripts/Libs/GMMath/Vector/Vec2/Common.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

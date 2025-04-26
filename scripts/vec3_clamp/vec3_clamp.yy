@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "vec3_clamp",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Geometric",
-    "path": "folders/Scripts/Libs/GMMath/Vector/Vec3/Geometric.yy",
+  "$GMScript":"v1",
+  "%Name":"vec3_clamp",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"vec3_clamp",
+  "parent":{
+    "name":"Geometric",
+    "path":"folders/Scripts/Libs/GMMath/Vector/Vec3/Geometric.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

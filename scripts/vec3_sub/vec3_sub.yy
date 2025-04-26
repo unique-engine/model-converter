@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "vec3_sub",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Arithmetic",
-    "path": "folders/Scripts/Libs/GMMath/Vector/Vec3/Arithmetic.yy",
+  "$GMScript":"v1",
+  "%Name":"vec3_sub",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"vec3_sub",
+  "parent":{
+    "name":"Arithmetic",
+    "path":"folders/Scripts/Libs/GMMath/Vector/Vec3/Arithmetic.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

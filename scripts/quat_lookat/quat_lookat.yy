@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "quat_lookat",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Geometric",
-    "path": "folders/Scripts/Libs/GMMath/Quaternion/Geometric.yy",
+  "$GMScript":"v1",
+  "%Name":"quat_lookat",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"quat_lookat",
+  "parent":{
+    "name":"Geometric",
+    "path":"folders/Scripts/Libs/GMMath/Quaternion/Geometric.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

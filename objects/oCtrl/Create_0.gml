@@ -1,21 +1,18 @@
-model_version = "1.0";
-guiTopHeight = 50;
-guiLeftWidth = 250;
-guiLeftY = guiTopHeight + 1;
 cursorSprite = undefined;
 debug = false;
 showControls = false;
-
-uiDialogShowing = false;
-uiDialogGridSize = undefined;
-uiDialogCameraSpeed = undefined;
-
+camViewMat = undefined;
+camProjMat = undefined;
+modelBbox = undefined;
 winW = window_get_width();
 winH = window_get_height();
+display_set_gui_size(winW, winH);
 scrLoadSettings();
 scrSetupUI();
 scrSetup3D();
-display_reset(4, false);
+display_reset(8, false);
 
 // Maximize the window
-alarm[0] = 3; 
+call_later(3, time_source_units_frames, function() {
+	window_command_run(window_command_maximize);
+});

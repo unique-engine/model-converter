@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "scrModelBuildGrid",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Utils",
-    "path": "folders/Scripts/Utils.yy",
+  "$GMScript":"v1",
+  "%Name":"scrModelBuildGrid",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scrModelBuildGrid",
+  "parent":{
+    "name":"Base Models",
+    "path":"folders/Scripts/Utils/Base Models.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

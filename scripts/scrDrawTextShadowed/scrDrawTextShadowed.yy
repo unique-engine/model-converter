@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "scrDrawTextShadowed",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Utils",
-    "path": "folders/Scripts/Utils.yy",
+  "$GMScript":"v1",
+  "%Name":"scrDrawTextShadowed",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scrDrawTextShadowed",
+  "parent":{
+    "name":"Utils",
+    "path":"folders/Scripts/Utils.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

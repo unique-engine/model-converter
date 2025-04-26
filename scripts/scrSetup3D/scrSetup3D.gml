@@ -10,11 +10,8 @@ function scrSetup3D() {
 	z = 37;
 	direction = 119;
 	zdir = 20;
-	cameraXT = -5;
-	cameraYT = 6;
-	cameraZT = 0;
 	cameraFov = 60;
-	cameraAspectRatio = view_get_wport(0) / view_get_hport(0);
+	cameraSpeed = 1;
 	
 	// Mouse
 	winMouseX = 0;
@@ -23,6 +20,7 @@ function scrSetup3D() {
 	winOldMouseY = 0;
 	winOldW = 0;
 	winOldH = 0;
+	winRadius = 0;
 	device_mouse_dbclick_enable(false);
 
 	// Setup the 3D camera
@@ -31,34 +29,33 @@ function scrSetup3D() {
 	gpu_set_texrepeat(true);
 	gpu_set_alphatestenable(true);
 	gpu_set_tex_filter(true);
-	gpu_set_tex_mip_enable(true);		
-	camera = camera_create();
-	
-	var projMat = matrix_build_projection_perspective_fov(-cameraFov, -cameraAspectRatio, 1, 32000);
-	camera_set_proj_mat(camera, projMat);
-	view_enabled = true;
-	view_set_camera(0, camera);
-	camera_set_update_script(camera, scrUpdateCameraMat);
+	gpu_set_tex_mip_enable(true);
+	var projMat = matrix_build_projection_perspective_fov(-cameraFov, -(view_wport[1] / view_hport[1]), .01, 64000);
+	camera_set_proj_mat(view_camera[1], projMat);
+	camera_set_update_script(view_camera[1], scrUpdateCameraMat);
 	
 	// Grid
-	vertex_format_begin();
-	vertex_format_add_position_3d();
-	vertex_format_add_color();
-	vforPosCol = vertex_format_end();
-	scrModelBuildGrid();
+	scrModelBuildGrid(); 
 	
 	// Model data
 	assimpImporter = new AssimpImporter();
 	model = undefined;
 	modelUnfrozen = undefined;
-	modelName = "cat";
-		
-	model = new UniqueModel();
-	model.load("cat.unique");
-	model.faces_count = 70576;
-	model.triangles_count = 211728;
-	model.vertices_count = 40717;
-	model.materials_count = 1;
-	modelUnfrozen = model.clone();
-	model.freeze();
+	modelName = undefined;
+	
+	// Light
+	light = new UniqueMesh(undefined, false);
+	light.vbuff = scrModelBuildSphere(c_yellow);
+	light.yrot = 45;	
+	light.z = 30;
+	light.transform();
+	
+	//lightCone = scrModelBuildCone(10, 20, 4);
+	//lightCone.yrot = light.yrot;	
+	//lightCone.z = light.z;
+	//lightCone.transform();
+	
+	// Skybox
+	vbSkybox = scrModelBuildSkybox();
+	skyboxTex = sprite_get_texture(sprSkybox, 0);
 }
